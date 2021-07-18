@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="wall_follow_pkg" name="action_server" type="action_server" output = "screen">
+    </node>
+</launch>

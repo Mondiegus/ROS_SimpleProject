@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="wall_follow_pkg" name="service_server" type="service_server" output = "screen">
+    </node>
+</launch>

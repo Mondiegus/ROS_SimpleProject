@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find wall_follow_pkg)/launch/launch_server.launch"/>
+    <include file="$(find wall_follow_pkg)/launch/service_server.launch"/>
+
+    <node pkg="wall_follow_pkg" name="wall_follow" type="wall_follow" output = "screen">
+    </node>
+</launch>
